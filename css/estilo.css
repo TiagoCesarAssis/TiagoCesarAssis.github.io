@@ -1,1 +1,29 @@
 /*estilo.css*/
+
+
+h1{/*Título*/
+ font-family: 'Fredericka the Great', cursive;
+ font-size: 60px;
+ color: #DC3D24;
+ text shadow: 0.5px 1.5px #ffffff;
+}
+
+h2, h3, h4, h5, h6{/*Sub-título*/
+font-family: 'Frijole', cursive;
+ font-size: 30px;
+ color: #DC3D24;
+ margin-top: 5px;
+ margin-bottom: 15px;
+}
+ 
+ body{/*Corpo do texto*/
+ font-family: 'Audiowide', cursive;
+ background-color: #232B2B;
+ color: #ffffff;
+ text-align: center;
+ }
+ 
+ .corpo{
+	 width: 960px;
+	 margin: auto;
+ }
