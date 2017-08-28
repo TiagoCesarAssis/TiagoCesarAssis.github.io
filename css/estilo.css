@@ -42,7 +42,44 @@ font-family: 'Frijole';
  text-indent: 7000px;
  display: inline-block;}
  
- .linkedin{background-image: url('../img/linkedin.png');}
- .github{background-image: url('../img/github.png');}
- .facebook{background-image: url('../img/facebook.png');}
- .devcard{background-image: url('../img/devcard.png');}
+ .linkedin{background-image: url('../img/linkedin.png');-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+ .linkedin:hover{-webkit-filter: grayscale(0%); filter: grayscale(0%);}
+ 
+ .github{background-image: url('../img/github.png');-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+ .github:hover{-webkit-filter: grayscale(0%); filter: grayscale(0%);}
+ 
+ .facebook{background-image: url('../img/facebook.png');-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+ .facebook:hover{-webkit-filter: grayscale(0%); filter: grayscale(0%);}
+ 
+ .devcard{background-image: url('../img/devcard.png');-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+ .devcard:hover{-webkit-filter: grayscale(0%); filter: grayscale(0%);}
+ 
+ .projetos{width: 700px; margin: 0 auto; text-align: left}
+ .projetos li{margin-bottom: 7px; margin-top: 7px; padding-left: 24px; background-image: url('../img/projetos.png');background-repeat: no-repeat}
+ 
+ .projetos li:hover{color: #e35757}
+ 
+ a:hover{color: #e35757}
+ 
+ .competencias ul{width:700px; margin: auto}
+ .competencias li{display: inline-block; width: 150px; padding: 8px; margin: 3px;}
+ 
+ .dev{background-color: #16a085; border: 2px solid #16a85}
+ .dev:hover{background-color: #1abc9c}
+ 
+ .engine{background-color: #27ae60; border: 2px solid #27ae60}
+ .engine:hover{background-color: #28cc21}
+ 
+ .design{background-color: #2980b9; border: 2px solid #2980b9}
+ .design:hover{background-color: #3498db}
+ 
+ .tredD{background-color: #2c3e50; border: 2px solid #2c3e50}
+ .tredD:hover{background-color: #34495e}
+ 
+ footer{
+ margin-top: 50px; 
+ padding-top: 20px; 
+ padding-bottom: 50px; 
+ background-color: #DC3D24;
+ text-shadow: 0.5px 1.5px #232B2B; 
+ position: fixed; bottom: 0px; width: 960px;}
